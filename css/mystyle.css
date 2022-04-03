@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Patrick+Hand&display=swap");
+
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Caveat", cursive;
+  font-family: "Patrick Hand", cursive, sans-serif;
+}
+
+.avatar {
+  height: 240px;
+  border-radius: 15px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 25);
+  margin-top: 30px;
+}
+
+.info p {
+  color: #86898f;
+  margin: 0;
+  font-style: normal;
+  /* font-weight: bolder; */
+  text-decoration: none;
+}
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+.info-text {
+  margin-left: 40px;
+}
+
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+/* box */
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-top: 30px;
+}
+.soc-link {
+  width: 50px;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.bg-yellow {
+  background: #fff9dc;
+}
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #cccccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row > .form-group:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  background: #111111;
+  padding: 15px 20px;
+  color: #ffffff;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+/* .table tr:nth-child(2) {
+  background: #86898f;
+} */
